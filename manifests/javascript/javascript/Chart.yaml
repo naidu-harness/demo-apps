@@ -1,0 +1,9 @@
+apiVersion: v2
+name: javascript
+description: Basic Helm Chart for basic Javascript app
+
+type: application
+
+version: 0.1.0
+
+appVersion: "1.16.0"
