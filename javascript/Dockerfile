@@ -1,6 +1,6 @@
-FROM node:11
-WORKDIR /usr/src/app
-COPY package*.json ./
+FROM node:9-slim
+WORKDIR /app
+COPY package.json /app
 RUN npm install
-COPY . .
-CMD [ "npm", "test" ]
+COPY . /app
+CMD [ "npm", "start" ]

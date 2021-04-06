@@ -4,7 +4,8 @@
   "description": "javascript app for Harness CI testing",
   "main": "main.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node main.js"
   },
   "keywords": [
     "javascript",
@@ -14,5 +15,8 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
