@@ -1,9 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: <+artifact.image>
   pullPolicy: IfNotPresent
-  tag: ""
 
 imagePullSecrets: []
 nameOverride: ""
