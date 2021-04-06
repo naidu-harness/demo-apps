@@ -2,10 +2,10 @@
   "name": "javascript",
   "version": "1.0.0",
   "description": "javascript app for Harness CI testing",
-  "main": "main.js",
+  "main": "app.js",
   "scripts": {
     "test": "jest",
-    "start": "node main.js"
+    "start": "node app.js"
   },
   "keywords": [
     "javascript",
