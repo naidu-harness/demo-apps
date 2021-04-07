@@ -6,7 +6,7 @@ test('adds 1 + 2 to equal 3', () => {
 })
 
 test('multiplies 2 * 3 to equal 6', () => {
-    expect(calc.multiply(2,3)).toBe(5);
+    expect(calc.multiply(2,3)).toBe(6);
 })
 
 test('subtracts 2 - 1 to equal 1', () => {
