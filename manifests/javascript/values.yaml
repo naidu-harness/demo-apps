@@ -1,8 +1,9 @@
 replicaCount: 1
 
 image:
-  repository: <+artifact.image>
+  repository: bfeuling/main
   pullPolicy: IfNotPresent
+  tag: 1.0.1
 
 imagePullSecrets: []
 nameOverride: ""
