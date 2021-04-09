@@ -1,9 +1,9 @@
 replicaCount: 1
 
 image:
-  repository: registry.hub.docker.com/harness/todolist-sample
+  repository: registry.hub.docker.com/library/nginx
   pullPolicy: IfNotPresent
-  tag: 23
+  tag: latest
 
 imagePullSecrets: []
 nameOverride: ""
