@@ -22,7 +22,6 @@ test('testing addition', () => {expect(ops.add(1,2)).toBe(3);})
 test('testing addition', () => {expect(ops.add(1,2)).toBe(3);})
 test('testing addition', () => {expect(ops.add(1,2)).toBe(3);})
 test('testing addition', () => {expect(ops.add(1,2)).toBe(3);})
-test('testing addition', () => {expect(ops.add(1,2)).toBe(3);})
 
 test('testing multiplication', () => {expect(ops.multiply(2,3)).toBe(6);})
 test('testing multiplication', () => {expect(ops.multiply(2,3)).toBe(6);})
