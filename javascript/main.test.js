@@ -1,7 +1,7 @@
 const { test, expect } = require('@jest/globals')
 const ops = require('./main.js')
 
-test('testing addition', () => {expect(ops.add(1,2)).toBe(3);})
+test('testing addition', () => {expect(ops.add(1,2)).toBe(4);})
 test('testing addition', () => {expect(ops.add(1,2)).toBe(3);})
 test('testing addition', () => {expect(ops.add(1,2)).toBe(3);})
 test('testing addition', () => {expect(ops.add(1,2)).toBe(3);})
