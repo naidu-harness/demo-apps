@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: registry.hub.docker.com/library/nginx
+  repository: library/nginx
   pullPolicy: IfNotPresent
   tag: latest
 
